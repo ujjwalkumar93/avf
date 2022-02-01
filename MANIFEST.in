@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include askforvets *.css
+recursive-include askforvets *.csv
+recursive-include askforvets *.html
+recursive-include askforvets *.ico
+recursive-include askforvets *.js
+recursive-include askforvets *.json
+recursive-include askforvets *.md
+recursive-include askforvets *.png
+recursive-include askforvets *.py
+recursive-include askforvets *.svg
+recursive-include askforvets *.txt
+recursive-exclude askforvets *.pyc
